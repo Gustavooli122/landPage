@@ -4,7 +4,7 @@ Este é um projeto de uma landing page responsiva inspirado em desafios de desig
 
 ## 🚀 Visualização
 
-🔗 Acesse o projeto online aqui: [https://seu-usuario.github.io/nome-do-repositorio](https://seu-usuario.github.io/nome-do-repositorio)
+🔗 Acesse o projeto online aqui: [[https://seu-usuario.github.io/nome-do-repositorio](https://seu-usuario.github.io/nome-do-repositorio](https://gustavooli122.github.io/landPage/))
 
 ## 🛠 Tecnologias utilizadas
 
