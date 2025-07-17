@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clipboard Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    p{
+      font-size: 18px;
+      color: rgb(158, 158, 158);
+      text-align: center;
+    }
+    img{
+      margin-bottom: 30px;
+    }
+   nav a{
+      color: rgb(129, 129, 129);
+      font-weight: 500;
+      font-size: 15px;
+      text-align: start;
+    }
+  
+  </style>
+</head>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            bai: ['"Bai Jamjuree"', 'sans-serif'],
+          }
+        }
+      }
+    }
+</script>
+<body class="w-screen flex flex-col gap-[40px] font-bai items-center">
+  <header class="bg-[url('images/bg-header-mobile.png')] w-full bg-no-repeat bg-cover bg-center flex flex-col items-center p-[28px] gap-[12px] mb-[5rem]">
+    <div class="logo flex justify-center items-center">
+      <img src="images/logo.svg" alt="logo" class="mt-[90px] mb-[25px]" data-aos="flip-up" data-aos-duration="1000">
+    </div>
+    <h1 class="lg:w-[75%] lg:text-[48px] text-[32px] text-gray-600 font-[600]  w-[85%] mt-[27px] text-center leading-[1.2]" data-aos="fade-left" data-aos-duration="1000">A history of everything you copy</h1>
+    <p class="lg:w-[50%] w-[80%] font-[500] mb-[30px] text-center" data-aos="fade-up" data-aos-duration="1000">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+    <div class="lg:flex-row lg:gap-[5rem] flex flex-col  gap-[34px] lg:w-[40rem] w-[70%] items-center">
+      <button class="bg-teal-500 p-[10px]  text-white rounded-[30px] w-full font-[600] scale-[1.2]">Download for iOS</button>
+      <button class="bg-indigo-500 p-[10px]  text-white rounded-[30px] w-full font-[600] scale-[1.2]">Download for Mac</button>
+    </div>
+  </header>
+
+  <main class="flex flex-col gap-[20px] pl-[12vw] pr-[12vw]">
+    <section class="flex items-center flex-col" data-aos="fade-up" data-aos-duration = "1000">
+       <h2 class="text-[32px] text-gray-600 font-[600] text-center" >Keep track of your snippets</h2>
+      <p class="text-center lg:w-[60%]">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+    </section>
+    <section class="flex lg:w-screen lg:flex-row flex-col lg:gap-[5rem] gap-[10px]">
+     
+      <div class="feature-image mt-[60px]">
+          <img src="images/image-computer.png" alt="image-computer" class="computador lg:[clip-path:inset(0_0_0_40px)] lg:ml-[-40px]">
+      </div>
+
+      <div class="flex flex-col gap-[3rem]  mt-[30px] mb-[65px] lg:w-[30%] lg:mt-[5rem]">
+        <article class="flex flex-col gap-[5px]" data-aos="fade-right" data-aos-duration="1000">
+          <h3 class="text-[21px] text-gray-600 font-[600] lg:text-left text-center">Quick Search</h3>
+          <p class="lg:text-left">Easily search your snippets by content, category, web address, application, and more.</p>
+        </article>
+        <article class="flex flex-col gap-[5px]" data-aos="fade-left" data-aos-duration="1000">
+          <h3 class="text-[21px] text-gray-600 font-[600] text-center lg:text-left">iCloud Sync</h3>
+          <p class="lg:text-left">Instantly saves and syncs snippets across all your devices.</p>
+        </article>
+        <article class="flex flex-col gap-[5px]"  data-aos="fade-right" data-aos-duration="1000">
+          <h3 class="text-[21px] text-gray-600 font-[600] text-center lg:text-left">Complete History</h3>
+          <p class="lg:text-left">Retrieve any snippets from the first moment you started using the app.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="flex flex-col gap-[5px] mt-[50px] items-center" data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="text-[32px] text-gray-600 font-[600]  text-center ">Access Clipboard Anywhere</h2>
+      <p class="mb-[20px]">Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+      <div class="access-image mt-[3.5rem] mb-[5rem]">
+        <img src="images/image-devices.png" alt="image-devices" data-aos="flip-up">
+      </div>
+    </section>
+
+    <div class="flex flex-col lg:items-center ">
+    <section class="flex flex-col gap-[10px] items-center lg:p-[40px]">
+      <h2 class="text-[32px] text-gray-600 font-[600] text-center">Supercharge your workflow</h2>
+      <p>We’ve got the tools to boost your productivity.</p>
+      <div class="flex flex-col lg:flex-row gap-[5rem] mt-[5rem] lg:justify-center">
+        <article class="flex flex-col gap-[5px] items-center lg:w-[25%]" data-aos="fade-right" data-aos-duration="1000">
+          <img src="images/icon-blacklist.svg" alt="icon-blacklist">
+          <h3 class="text-[21px] text-gray-700 font-[600]">Create blacklists</h3>
+          <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+        </article>
+        <article class="flex flex-col gap-[5px] items-center lg:w-[25%]" data-aos="fade-right" data-aos-duration="1000">
+          <img src="images/icon-text.svg" alt="icon-text">
+          <h3 class="text-[21px] text-gray-700 font-[600]">Plain text snippets</h3>
+          <p>Remove unwanted formatting from copied text for a consistent look.</p>
+        </article>
+        <article class="flex flex-col gap-[5px] items-center lg:w-[25%]" data-aos="fade-right" data-aos-duration="1000">
+          <img src="images/icon-preview.svg" alt="icon-preview">
+          <h3 class="text-[21px] text-gray-700 font-[600]">Sneak preview</h3>
+          <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+        </article>
+      </div>
+    </section>
+
+    <section  class=" flex flex-col lg:gap-[60px] lg:flex-row gap-[2rem] items-center mt-[5rem] mb-[7rem] ">
+
+      <img src="images/logo-google.png" alt="logo-google" data-aos="flip-left" data-aos-duration="1000">
+
+      <img src="images/logo-ibm.png" alt="logo-ibm" data-aos="flip-right" data-aos-duration="1100">
+
+      <img src="images/logo-microsoft.png" alt="logo-microsoft" data-aos="flip-left" data-aos-duration="1200">
+
+      <img src="images/logo-hp.png" alt="logo-hp" data-aos="flip-right" data-aos-duration="1300">
+
+      <img src="images/logo-vector-graphics.png" alt="logo-vector-graphics" data-aos="flip-left" data-aos-duration="1400">
+
+    </section>
+</div>
+    <section  class="flex flex-col gap-[10px] items-center" data-aos="fade-down" data-aos-duration="1200">
+      <h2 class="lg:w-[75%] text-[32px] text-gray-600 font-[600] text-center">Clipboard for iOS and Mac OS</h2>
+      <p class="lg:w-[55%]">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+      <div  class="flex flex-col lg:flex-row lg:gap-[5rem] lg:w-[40rem] gap-[34px] w-[84%] items-center mt-[2rem]">
+        <button class="bg-teal-500 p-[10px]  text-white rounded-[30px] w-full font-[600] scale-[1.2]">Download for iOS</button>
+        <button class="bg-indigo-500 p-[10px]  text-white rounded-[30px] w-full font-[600] scale-[1.2]">Download for Mac</button>
+      </div>
+    </section>
+  </main>
+
+  <footer  class=" lg:flex-row bg-gray-100 flex flex-col gap-[1rem] lg:justify-center lg:gap-[5rem] items-center mt-[10rem] w-screen pt-[4rem] lg:pb-[5rem]" data-aos="fade-up" data-aos-duration="1000">
+    <div class="logo w-[50px] h-[50px] mb-[1rem] lg:mr-[5rem]">
+      <img src="images/logo.svg" alt="icon-logo">
+    </div>
+   <nav class="text-center flex flex-col gap-[1rem] mb-[1rem] lg:flex-none lg:grid lg:grid-cols-3 lg:gap-x-[4rem]">
+
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Press Kit</a>
+        <a href="#">Install Guide</a>
+      
+    </nav>
+    <div class="social flex  gap-[2rem] items-center lg:ml-[4rem]">
+      <img src="images/icon-facebook.svg" alt="icon-facebook">
+      <img src="images/icon-twitter.svg" alt="icon-twitter">
+      <img src="images/icon-instagram.svg" alt="icon-instagram">
+    </div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
